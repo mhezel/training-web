@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-1">
+        <div id="color">
+          <label>Training Dev</label>
+          <p>
+            amet consectetur adipisicing elit. Consectetur nobis, dolor impedit
+            ipsum est, quoddelectus officia magni officiis commodi rem assumenda
+            illum recusandae? Beatae possimus fugiat neque perspiciatis dolorum?
+          </p>
+        </div>
+      </div>
+
+      <div class="card-2">
+        <div>
+          <label>Table</label>
+          <table id="myTable">
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Email</th>
+                <th>Age</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mhezel</td>
+                <td>mhezelkhan@gmail.com</td>
+                <td>25</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card-3">
+        <div>
+          <label>Forms Dev</label>
+          <form id="form1">
+            <input type="text" placeholder="Fullname" id="mhez" />
+            <input type="number" placeholder="Input your age" id="edad" />
+            <input type="date" />
+            <input type="file" />
+          </form>
+          <select>
+            <option>Option1</option>
+            <option>Option2</option>
+          </select>
+          <br />
+          <textarea></textarea>
+          <br />
+        </div>
+      </div>
+      <div class="buttons">
+        <div>
+          <button type="button" name="button1" onclick="textColor()" id="btn-1">
+            Button1
+          </button>
+        </div>
+        <div>
+          <button type="button" name="button1" onclick="infoText()" id="btn-2">
+            Button2
+          </button>
+        </div>
+        <div>
+          <button
+            type="button"
+            name="button1"
+            onclick="addTableRow()"
+            id="btn-3"
+          >
+            Button3
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

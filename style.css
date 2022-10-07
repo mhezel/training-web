@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.card-1{
+    border: 5px solid green;
+}
+.card-2{
+    border: 5px solid blue;
+}
+.card-3{
+    border: 5px solid yellow;
+}
+.card-1 , .card-2 , .card-3{
+
+    width: 300px;
+    margin: 10px 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 200px;
+}
+.card-1:hover , .card-2:hover , .card-3:hover{
+    opacity: 0.5;
+    background-color: #fff;
+    cursor: pointer;
+}
+.buttons{
+    
+    align-self:flex-end;
+    position: relative;
+    right: 580px;
+    
+
+}
+#btn-1 , #btn-2 , #btn-3 {
+    width: 100px;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 30px;
+    box-shadow: 5px;
+}
+#btn-1:hover , #btn-2:hover , #btn-3:hover {
+    
+    opacity: 0.5;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+.container {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
